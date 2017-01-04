@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E06C18E81E0A888200A4565B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C18E71E0A888200A4565B /* Task.swift */; };
+		E06C18EA1E0A88E800A4565B /* TaskEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C18E91E0A88E800A4565B /* TaskEditViewController.swift */; };
 		E0DF2A0B1E0675EE00311A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF2A0A1E0675EE00311A00 /* AppDelegate.swift */; };
-		E0DF2A0D1E0675EE00311A00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF2A0C1E0675EE00311A00 /* ViewController.swift */; };
+		E0DF2A0D1E0675EE00311A00 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF2A0C1E0675EE00311A00 /* TaskListViewController.swift */; };
 		E0DF2A101E0675EE00311A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DF2A0E1E0675EE00311A00 /* Main.storyboard */; };
 		E0DF2A121E0675EE00311A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DF2A111E0675EE00311A00 /* Assets.xcassets */; };
 		E0DF2A151E0675EE00311A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DF2A131E0675EE00311A00 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E0DF2A071E0675EE00311A00 /* Project1218_Todobox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1218_Todobox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06C18E71E0A888200A4565B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E06C18E91E0A88E800A4565B /* TaskEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskEditViewController.swift; sourceTree = "<group>"; };
+		E0DF2A071E0675EE00311A00 /* 투두박스.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "투두박스.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DF2A0A1E0675EE00311A00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0DF2A0C1E0675EE00311A00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0DF2A0C1E0675EE00311A00 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		E0DF2A0F1E0675EE00311A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0DF2A111E0675EE00311A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0DF2A141E0675EE00311A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +50,7 @@
 		E0DF2A081E0675EE00311A00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0DF2A071E0675EE00311A00 /* Project1218_Todobox.app */,
+				E0DF2A071E0675EE00311A00 /* 투두박스.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E0DF2A0A1E0675EE00311A00 /* AppDelegate.swift */,
-				E0DF2A0C1E0675EE00311A00 /* ViewController.swift */,
+				E0DF2A0C1E0675EE00311A00 /* TaskListViewController.swift */,
 				E0DF2A0E1E0675EE00311A00 /* Main.storyboard */,
 				E0DF2A111E0675EE00311A00 /* Assets.xcassets */,
 				E0DF2A131E0675EE00311A00 /* LaunchScreen.storyboard */,
 				E0DF2A161E0675EE00311A00 /* Info.plist */,
+				E06C18E71E0A888200A4565B /* Task.swift */,
+				E06C18E91E0A88E800A4565B /* TaskEditViewController.swift */,
 			);
 			path = Project1218_Todobox;
 			sourceTree = "<group>";
@@ -81,7 +87,7 @@
 			);
 			name = Project1218_Todobox;
 			productName = Project1218_Todobox;
-			productReference = E0DF2A071E0675EE00311A00 /* Project1218_Todobox.app */;
+			productReference = E0DF2A071E0675EE00311A00 /* 투두박스.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DF2A0D1E0675EE00311A00 /* ViewController.swift in Sources */,
+				E0DF2A0D1E0675EE00311A00 /* TaskListViewController.swift in Sources */,
+				E06C18E81E0A888200A4565B /* Task.swift in Sources */,
 				E0DF2A0B1E0675EE00311A00 /* AppDelegate.swift in Sources */,
+				E06C18EA1E0A88E800A4565B /* TaskEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -246,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,7 +269,7 @@
 				INFOPLIST_FILE = Project1218_Todobox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pr1218.Project1218-Todobox";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "투두박스";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -273,7 +281,7 @@
 				INFOPLIST_FILE = Project1218_Todobox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pr1218.Project1218-Todobox";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "투두박스";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -297,6 +305,7 @@
 				E0DF2A1B1E0675EE00311A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
